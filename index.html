@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+  <script type="text/javascript" src="d3-circles.js"></script>
+  <script type="text/javascript" src="d3-pie.js"></script>
+  <script type="text/javascript" src="d3-github.js"></script>
+
+  <style>
+    #example-pie g.pieChartSegment text {
+      font: 14px sans-serif;
+      text-anchor: middle;
+    }
+
+    #example-pie g.pieChartSegment path {
+      stroke: #fff;
+    }
+
+    #example-github .links line {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+
+    #example-github .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+  </style>
+</head>
+
+<body>
+  <input id="numberOfCircles"></input>
+  <div id="example-circles"></div>
+  <div id="example-pie"></div>
+  <div id="example-github"></div>
+</body>
+
+</html>
