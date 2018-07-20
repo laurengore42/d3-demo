@@ -80,7 +80,6 @@ var drawFootie = (function () {
         for (var key in scoreGraph) {
             xAxis.push(parseTime(key));
         }
-
         x.domain(d3.extent(xAxis));
 
         y.domain([
