@@ -59,8 +59,14 @@ var drawGithub = (function () {
                 awayTeam.points += 1;
                 awayTeam.draw++;
             }
-            homeTeam.scoreGraph[match.matchday] = homeTeam.points;
-            awayTeam.scoreGraph[match.matchday] = awayTeam.points;
+            homeTeam.scoreGraph.push({
+                date: new Date(match.utcDate),
+                points: homeTeam.points
+            });
+            awayTeam.scoreGraph.push({
+                date: new Date(match.utcDate),
+                points: awayTeam.points
+            });
         });
         teams.forEach(function (team) {
             team.goalDiff = team.goalsFor - team.goalsAgainst;
