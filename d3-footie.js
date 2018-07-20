@@ -71,10 +71,10 @@ var drawGithub = (function () {
         if (a.goalsFor != b.goalsFor) {
             return b.goalsFor - a.goalsFor;
         }
-        if (a.name < b.name) {
+        if (a.shortName > b.shortName) {
             return 1;
         }
-        if (a.name > b.name) {
+        if (a.shortName < b.shortName) {
             return -1;
         }
         return 0;
