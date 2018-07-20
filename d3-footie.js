@@ -97,9 +97,9 @@ var drawGithub = (function () {
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
-        var x = d3.scaleTime().range([0, width]),
-            y = d3.scaleLinear().range([height, 0]),
-            z = d3.scaleOrdinal(d3.schemeCategory10);
+        var x = d3.scaleTime().range([0, width]);
+        var y = d3.scaleLinear().range([height, 0]);
+        var z = d3.scaleOrdinal(d3.schemeCategory10);
         
         var line = d3.line()
             .curve(d3.curveBasis)
