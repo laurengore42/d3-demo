@@ -72,6 +72,7 @@ var drawFootie = (function () {
                 t.scoreDates.push({
                     date: parseTime(key),
                     points: scoreGraph[key][t.id] 
+                    //points: scoreGraph[key][t.id] - averages[key]
                 });
             }
             teamsWithScores.push({
@@ -123,7 +124,7 @@ var drawFootie = (function () {
             .attr("transform", function (d) { return "translate(" + x(d.value.date) + "," + y(d.value.points) + ")"; })
             .attr("x", 3)
             .attr("dy", "0.35em")
-            .style("font", "6px sans-serif")
+            .style("font", "8px sans-serif")
             .text(function (d) { return d.id; });
     }
 
