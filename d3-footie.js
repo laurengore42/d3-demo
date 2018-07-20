@@ -99,7 +99,7 @@ var drawGithub = (function () {
         
         var x = d3.scaleTime().range([0, width]);
         var y = d3.scaleLinear().range([height, 0]);
-        var z = d3.scaleOrdinal(d3.schemeCategory10);
+        var z = d3.scaleOrdinal(d3.schemeCategory20);
         
         var line = d3.line()
             .curve(d3.curveBasis)
