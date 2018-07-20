@@ -1,0 +1,362 @@
+[
+            {
+                "id": 65,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Manchester City FC",
+                "shortName": "Man City",
+                "tla": "MCFC",
+                "address": "SportCity Manchester M11 3FF",
+                "phone": "+44 (0870) 0621894",
+                "website": "https://www.mancity.com",
+                "email": "mancity@mancity.com",
+                "founded": 1880,
+                "clubColors": "Sky Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-06-02T12:59:03Z"
+            },
+            {
+                "id": 66,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Manchester United FC",
+                "shortName": "Man United",
+                "tla": "MUFC",
+                "address": "Sir Matt Busby Way Manchester M16 0RA",
+                "phone": "+44 (0161) 8688000",
+                "website": "http://www.manutd.com",
+                "email": "enquiries@manutd.co.uk",
+                "founded": 1878,
+                "clubColors": "Red / White",
+                "venue": null,
+                "lastUpdated": "2018-06-02T12:59:04Z"
+            },
+            {
+                "id": 73,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Tottenham Hotspur FC",
+                "shortName": "Tottenham",
+                "tla": "THFC",
+                "address": "Bill Nicholson Way, 748 High Road London N17 OAP",
+                "phone": "+44 (0844) 4995000",
+                "website": "http://www.tottenhamhotspur.com",
+                "email": "customer.care@tottenhamhotspur.com",
+                "founded": 1882,
+                "clubColors": "Navy Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-06-02T12:59:04Z"
+            },
+            {
+                "id": 64,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Liverpool FC",
+                "shortName": "Liverpool",
+                "tla": "LIV",
+                "address": "Anfield Road Liverpool L4 OTH",
+                "phone": "+44 (0844) 4993000",
+                "website": "http://www.liverpoolfc.tv",
+                "email": "customercontact@liverpoolfc.tv",
+                "founded": 1892,
+                "clubColors": "Red / White",
+                "venue": "Anfield",
+                "lastUpdated": "2018-07-02T22:06:56Z"
+            },
+            {
+                "id": 61,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Chelsea FC",
+                "shortName": "Chelsea",
+                "tla": "CFC",
+                "address": "Fulham Road London SW6 1HS",
+                "phone": "+44 (0871) 9841955",
+                "website": "http://www.chelseafc.com",
+                "email": null,
+                "founded": 1905,
+                "clubColors": "Royal Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-06-02T12:59:02Z"
+            },
+            {
+                "id": 57,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Arsenal FC",
+                "shortName": "Arsenal",
+                "tla": "AFC",
+                "address": "75 Drayton Park London N5 1BU",
+                "phone": "+44 (020) 76195003",
+                "website": "http://www.arsenal.com",
+                "email": "info@arsenal.co.uk",
+                "founded": 1886,
+                "clubColors": "Red / White",
+                "venue": null,
+                "lastUpdated": "2018-06-02T13:47:21Z"
+            },
+            {
+                "id": 328,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Burnley FC",
+                "shortName": "Burnley",
+                "tla": "BFC",
+                "address": "Harry Potts Way Burnley BB10 4BX",
+                "phone": "+44 (0871) 2211882",
+                "website": "http://www.burnleyfootballclub.com",
+                "email": "info@burnleyfc.com",
+                "founded": 1881,
+                "clubColors": "Claret / Sky Blue",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:45Z"
+            },
+            {
+                "id": 62,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Everton FC",
+                "shortName": "Everton",
+                "tla": "EFC",
+                "address": "Goodison Park Liverpool L4 4EL",
+                "phone": "+44 (0871) 6631878",
+                "website": "http://www.evertonfc.com",
+                "email": "everton@evertonfc.com",
+                "founded": 1878,
+                "clubColors": "Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:33Z"
+            },
+            {
+                "id": 338,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Leicester City FC",
+                "shortName": "Leicester City",
+                "tla": "LCFC",
+                "address": "The Walkers Stadium, Filbert Way Leicester LE2 7FL",
+                "phone": "+44 (0844) 8156000",
+                "website": "http://www.lcfc.com",
+                "email": null,
+                "founded": 1884,
+                "clubColors": "Royal Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:46Z"
+            },
+            {
+                "id": 67,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Newcastle United FC",
+                "shortName": "Newcastle",
+                "tla": "NUFC",
+                "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
+                "phone": null,
+                "website": "http://www.nufc.co.uk",
+                "email": "admin@nufc.co.uk",
+                "founded": 1881,
+                "clubColors": "Black / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:38Z"
+            },
+            {
+                "id": 354,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Crystal Palace FC",
+                "shortName": "Crystal Palace",
+                "tla": "CRY",
+                "address": "Whitehorse Lane London SE25 6PU",
+                "phone": "+44 (020) 87686000",
+                "website": "http://www.cpfc.co.uk",
+                "email": "info@cpfc.co.uk",
+                "founded": 1905,
+                "clubColors": "Red / Blue",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:50Z"
+            },
+            {
+                "id": 1044,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "AFC Bournemouth",
+                "shortName": "Bournemouth",
+                "tla": "AFCB",
+                "address": "Dean Court, Kings Park Bournemouth BH7 7AF",
+                "phone": "+44 (01202) 726300",
+                "website": "http://www.afcb.co.uk",
+                "email": "admin@afcb.co.uk",
+                "founded": 1890,
+                "clubColors": "Red / Black",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:55Z"
+            },
+            {
+                "id": 563,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "West Ham United FC",
+                "shortName": "West Ham",
+                "tla": "WHU",
+                "address": "Green Street, Upton Park London E13 9AZ",
+                "phone": "+44 (020) 85482794",
+                "website": "http://www.whufc.com",
+                "email": "yourcomments@westhamunited.co.uk",
+                "founded": 1895,
+                "clubColors": "Claret / Sky Blue",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:54Z"
+            },
+            {
+                "id": 346,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Watford FC",
+                "shortName": "Watford",
+                "tla": "Watfordfc",
+                "address": "Vicarage Road Watford WD18 0ER",
+                "phone": null,
+                "website": "http://www.watfordfc.com",
+                "email": "yourvoice@watfordfc.com",
+                "founded": 1881,
+                "clubColors": "Yellow / Black",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:49Z"
+            },
+            {
+                "id": 397,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Brighton & Hove Albion FC",
+                "shortName": "Brighton Hove",
+                "tla": "BHAFC",
+                "address": "44 North Road Brighton & Hove BN1 1YR",
+                "phone": "+44 (01273) 878288",
+                "website": "http://www.seagulls.co.uk",
+                "email": "seagulls@bhafc.co.uk",
+                "founded": 1898,
+                "clubColors": "Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:52Z"
+            },
+            {
+                "id": 394,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Huddersfield Town AFC",
+                "shortName": "Huddersfield",
+                "tla": "HTAFC",
+                "address": "Stadium Way Huddersfield HD1 6PX",
+                "phone": "+44 (0148) 4484112",
+                "website": "http://www.htafc.com",
+                "email": "info@htafc.com",
+                "founded": 1908,
+                "clubColors": "Blue / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:51Z"
+            },
+            {
+                "id": 340,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Southampton FC",
+                "shortName": "Southampton",
+                "tla": "SFC",
+                "address": "Britannia Road Southampton SO14 5FP",
+                "phone": null,
+                "website": "http://www.saintsfc.co.uk",
+                "email": "sfc@saintsfc.co.uk",
+                "founded": 1885,
+                "clubColors": "Red / White / Black",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:47Z"
+            },
+            {
+                "id": 72,
+                "area": {
+                    "id": 2264,
+                    "name": "Wales"
+                },
+                "name": "Swansea City AFC",
+                "shortName": "Swansea",
+                "tla": "SWA",
+                "address": "Liberty Stadium, Landore Swansea SA1 2FA",
+                "phone": "+44 (01792) 616600",
+                "website": "http://www.swanseacity.net",
+                "email": "info@swanseacityfc.co.uk",
+                "founded": 1912,
+                "clubColors": "White / Black",
+                "venue": null,
+                "lastUpdated": "2018-06-02T13:47:54Z"
+            },
+            {
+                "id": 70,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "Stoke City FC",
+                "shortName": "Stoke",
+                "tla": "SCFC",
+                "address": "Stanley Matthews Way Stoke-on-Trent ST4 4EG",
+                "phone": "+44 (0871) 6632008",
+                "website": "http://www.stokecityfc.com",
+                "email": "info@stokecityfc.com",
+                "founded": 1863,
+                "clubColors": "Red / White",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:40Z"
+            },
+            {
+                "id": 74,
+                "area": {
+                    "id": 2072,
+                    "name": "England"
+                },
+                "name": "West Bromwich Albion FC",
+                "shortName": "West Brom",
+                "tla": "WBA",
+                "address": "The Hawthorns West Bromwich B71 4LF",
+                "phone": null,
+                "website": "http://www.wba.co.uk",
+                "email": "enquiries@wbafc.co.uk",
+                "founded": 1879,
+                "clubColors": "White / Navy Blue",
+                "venue": null,
+                "lastUpdated": "2018-05-31T16:38:43Z"
+            }
+        ]
