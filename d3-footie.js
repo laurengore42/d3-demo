@@ -1,38 +1,10 @@
-var drawGithub = (function () {
-
-    function loadData() {
-        var d = [];
-        d =
-            [];
-
-        return d;
-    }
-
-    function loadTeamData() {
-        var d = [];
-        d = [];
-        return d;
-    }
-
+var drawFootie = (function () {
     var scoreGraph;
 
     function go() {
-        // establish array of teams
-        var teamDataFromJson = loadTeamData();
-        var teams = [];
-        teamDataFromJson.forEach(function (t) {
-            t.points = 0;
-            t.played = 0;
-            t.goalsFor = 0;
-            t.goalsAgainst = 0;
-            t.win = 0;
-            t.draw = 0;
-            t.lose = 0;
-            teams[t.id] = t;
-        });
+        var teams = loadFootieTeamData();
 
-        // run through season and establish points ranking
-        var dataFromJson = loadData();
+        var dataFromJson = loadFootieMatchData();
         var firstMatchDate = (new Date(dataFromJson.sort(compareDate)[0].utcDate)).toISOString().split("T")[0];
         scoreGraph = [];
         scoreGraph[firstMatchDate] = [];
@@ -41,8 +13,6 @@ var drawGithub = (function () {
         })
         var prevMatchDate = firstMatchDate;
         dataFromJson.forEach(function (match) {
-            var homeTeam = teams[match.homeTeam.id];
-            var awayTeam = teams[match.awayTeam.id];
             var matchDate = (new Date(match.utcDate)).toISOString().split("T")[0];
             if (scoreGraph[matchDate] == undefined) {
                 scoreGraph[matchDate] = [];
@@ -52,34 +22,17 @@ var drawGithub = (function () {
                 scoreGraph[matchDate] = scoreGraph[prevMatchDate].concat();
                 prevMatchDate = matchDate;
             }
-            homeTeam.played++;
-            homeTeam.goalsFor += match.score.fullTime.homeTeam;
-            homeTeam.goalsAgainst += match.score.fullTime.awayTeam;
-            awayTeam.played++;
-            awayTeam.goalsFor += match.score.fullTime.awayTeam;
-            awayTeam.goalsAgainst += match.score.fullTime.homeTeam;
             if (match.score.winner === "HOME_TEAM") {
-                homeTeam.points += 3;
-                homeTeam.win++;
-                scoreGraph[matchDate][homeTeam.id] += 3;
-                awayTeam.lose++;
+                scoreGraph[matchDate][match.homeTeam.id] += 3;
             }
             else if (match.score.winner === "AWAY_TEAM") {
-                awayTeam.points += 3;
-                awayTeam.win++;
-                scoreGraph[matchDate][awayTeam.id] += 3;
-                homeTeam.lose++;
+                scoreGraph[matchDate][match.awayTeam.id] += 3;
             }
             else {
-                homeTeam.points += 1;
-                homeTeam.draw++;
-                scoreGraph[matchDate][homeTeam.id] += 1;
-                awayTeam.points += 1;
-                awayTeam.draw++;
-                scoreGraph[matchDate][awayTeam.id] += 1;
+                scoreGraph[matchDate][match.homeTeam.id] += 1;
+                scoreGraph[matchDate][match.awayTeam.id] += 1;
             }
         });
-
 
         var height = 600;
         var width = 960;
