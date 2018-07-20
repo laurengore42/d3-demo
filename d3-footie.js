@@ -61,13 +61,17 @@ var drawFootie = (function () {
 
         var parseTime = d3.timeParse("%Y-%m-%d");
 
+        // var averages = [];
+        // for (var key in scoreGraph) {
+        //     averages[key] =  Math.round((scoreGraph[key].reduce((a,b) => a+b, 0))/20);
+        // }
         var teamsWithScores = [];
         teams.forEach(function (t) {
             t.scoreDates = [];
             for (var key in scoreGraph) {
                 t.scoreDates.push({
                     date: parseTime(key),
-                    points: scoreGraph[key][t.id]
+                    points: scoreGraph[key][t.id] 
                 });
             }
             teamsWithScores.push({
