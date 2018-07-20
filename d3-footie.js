@@ -61,6 +61,7 @@ var drawFootie = (function () {
         
         var parseTime = d3.timeParse("%Y-%m-%d");
 
+        var teamsWithScores = [];
         teams.forEach(function (t) {
             t.scoreDates = [];
             for (var key in scoreGraph) {
@@ -69,9 +70,6 @@ var drawFootie = (function () {
                     points: scoreGraph[key][t.id]
                 });
             }
-        });
-        var teamsWithScores = [];
-        teams.forEach(function(t) {
             teamsWithScores.push({
                 id: t.shortName,
                 values: t.scoreDates
