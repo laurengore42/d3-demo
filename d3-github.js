@@ -69,6 +69,7 @@ var drawGithub = (function () {
             .attr("height", height);
         
         var color = d3.scaleOrdinal(d3.schemeCategory20);
+        var colorGrey = d3.scaleLinear().domain([0,19]).range(['snow', 'black']);
         
         simulation = d3.forceSimulation()
             .force("link", d3.forceLink().id(function(d) { return d.id; }))
@@ -80,7 +81,8 @@ var drawGithub = (function () {
             .selectAll("line")
             .data(graph.links)
             .enter().append("line")
-            .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
+            .attr("stroke", function (d) { return colorGrey(Math.floor((Math.sqrt(d.value))/(5/2))); })
+            .attr("stroke-width", 2);
 
         node = svg.append("g")
             .attr("class", "nodes")
