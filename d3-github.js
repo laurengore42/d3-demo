@@ -81,7 +81,7 @@ var drawGithub = (function () {
             .selectAll("line")
             .data(graph.links)
             .enter().append("line")
-            .attr("stroke", function (d) { return colorGrey(Math.floor((Math.sqrt(d.value))/(5/2))); })
+            .attr("stroke", function (d) { return colorGrey(Math.floor((Math.sqrt(d.value))*(2/5))); })
             .attr("stroke-width", 2);
 
         node = svg.append("g")
